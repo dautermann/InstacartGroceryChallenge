@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D8CCC72124268900EEB9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8CCC62124268900EEB9CC /* ViewController.swift */; };
 		C11488BB20BE12DC00429C8F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11488BA20BE12DC00429C8F /* Service.swift */; };
 		C1DDE15E20A9FF3500FD5273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */; };
-		C1DDE16020A9FF3500FD5273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15F20A9FF3500FD5273 /* ViewController.swift */; };
+		C1DDE16020A9FF3500FD5273 /* ProductChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15F20A9FF3500FD5273 /* ProductChallengeViewController.swift */; };
 		C1DDE16320A9FF3500FD5273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DDE16120A9FF3500FD5273 /* Main.storyboard */; };
 		C1DDE16520A9FF3700FD5273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DDE16420A9FF3700FD5273 /* Assets.xcassets */; };
 		C1DDE16820A9FF3700FD5273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DDE16620A9FF3700FD5273 /* LaunchScreen.storyboard */; };
@@ -23,11 +24,12 @@
 
 /* Begin PBXFileReference section */
 		0155E20476FAF37D7E75EA86 /* Pods-Grocery Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grocery Challenge/Pods-Grocery Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		25D8CCC62124268900EEB9CC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56CD3724179AF048BF184F5D /* Pods_Grocery_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11488BA20BE12DC00429C8F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		C1DDE15A20A9FF3500FD5273 /* Grocery Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1DDE15F20A9FF3500FD5273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1DDE15F20A9FF3500FD5273 /* ProductChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductChallengeViewController.swift; sourceTree = "<group>"; };
 		C1DDE16220A9FF3500FD5273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1DDE16420A9FF3700FD5273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DDE16720A9FF3700FD5273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,7 +96,8 @@
 				C1DDE17820AA090D00FD5273 /* Extensions */,
 				C1DDE17720AA08FC00FD5273 /* API */,
 				C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */,
-				C1DDE15F20A9FF3500FD5273 /* ViewController.swift */,
+				C1DDE15F20A9FF3500FD5273 /* ProductChallengeViewController.swift */,
+				25D8CCC62124268900EEB9CC /* ViewController.swift */,
 				C1DDE16120A9FF3500FD5273 /* Main.storyboard */,
 				C1DDE16420A9FF3700FD5273 /* Assets.xcassets */,
 				C1DDE16620A9FF3700FD5273 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C1DDE15620A9FF3500FD5273 /* Sources */,
 				C1DDE15720A9FF3500FD5273 /* Frameworks */,
 				C1DDE15820A9FF3500FD5273 /* Resources */,
+				535F096D66042BBFD3DEB545 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +203,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		535F096D66042BBFD3DEB545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Grocery Challenge/Pods-Grocery Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grocery Challenge/Pods-Grocery Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		65C0498DD91DFA4B99537E2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,10 +248,11 @@
 			files = (
 				C1DDE17020AA010000FD5273 /* Result.swift in Sources */,
 				C11488BB20BE12DC00429C8F /* Service.swift in Sources */,
-				C1DDE16020A9FF3500FD5273 /* ViewController.swift in Sources */,
+				C1DDE16020A9FF3500FD5273 /* ProductChallengeViewController.swift in Sources */,
 				C1DDE17620AA042D00FD5273 /* UIImageExtensions.swift in Sources */,
 				C1DDE17B20AA0BA900FD5273 /* Question.swift in Sources */,
 				C1DDE17420AA015F00FD5273 /* ChallengeAPI.swift in Sources */,
+				25D8CCC72124268900EEB9CC /* ViewController.swift in Sources */,
 				C1DDE15E20A9FF3500FD5273 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

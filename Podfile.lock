@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: e18b3ea46859bc2e4d7c3c33048fa593e0ba9cb4
+PODS:
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
-COCOAPODS: 1.5.0
+DEPENDENCIES:
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 5f5d44ada9c33f1c43a71ab4cb1985c03b92cf5d
+
+COCOAPODS: 1.5.3

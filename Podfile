@@ -10,7 +10,7 @@ target 'Grocery Challenge' do
   # pod "SnapKit"
 
   # pod "Alamofire"
-  # pod "SDWebImage"
+  pod "SDWebImage"
   # pod "Kingfisher"
 
   # pod "BrightFutures"

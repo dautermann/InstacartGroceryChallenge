@@ -1,0 +1,11 @@
+# Uncomment the frameworks of choice and run `carthage update`, then drag the built framework file into Xcode.
+
+# github "Weebly/AnchorKit"
+# github "SnapKit/SnapKit"
+
+# github "Alamofire/Alamofire"
+# github "rs/SDWebImage"
+
+# github "Thomvis/BrightFutures"
+# github "antitypical/Result"
+# github "ReactiveX/RxSwift"

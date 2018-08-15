@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25D8CCC72124268900EEB9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8CCC62124268900EEB9CC /* ViewController.swift */; };
+		25D8CCC92124293000EEB9CC /* InstaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8CCC82124293000EEB9CC /* InstaButton.swift */; };
 		C11488BB20BE12DC00429C8F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11488BA20BE12DC00429C8F /* Service.swift */; };
 		C1DDE15E20A9FF3500FD5273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */; };
 		C1DDE16020A9FF3500FD5273 /* ProductChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDE15F20A9FF3500FD5273 /* ProductChallengeViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0155E20476FAF37D7E75EA86 /* Pods-Grocery Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grocery Challenge/Pods-Grocery Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		25D8CCC62124268900EEB9CC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25D8CCC82124293000EEB9CC /* InstaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaButton.swift; sourceTree = "<group>"; };
 		56CD3724179AF048BF184F5D /* Pods_Grocery_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocery_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11488BA20BE12DC00429C8F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		C1DDE15A20A9FF3500FD5273 /* Grocery Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 				C1DDE17820AA090D00FD5273 /* Extensions */,
 				C1DDE17720AA08FC00FD5273 /* API */,
 				C1DDE15D20A9FF3500FD5273 /* AppDelegate.swift */,
+				25D8CCC82124293000EEB9CC /* InstaButton.swift */,
 				C1DDE15F20A9FF3500FD5273 /* ProductChallengeViewController.swift */,
 				25D8CCC62124268900EEB9CC /* ViewController.swift */,
 				C1DDE16120A9FF3500FD5273 /* Main.storyboard */,
@@ -253,6 +256,7 @@
 				C1DDE17B20AA0BA900FD5273 /* Question.swift in Sources */,
 				C1DDE17420AA015F00FD5273 /* ChallengeAPI.swift in Sources */,
 				25D8CCC72124268900EEB9CC /* ViewController.swift in Sources */,
+				25D8CCC92124293000EEB9CC /* InstaButton.swift in Sources */,
 				C1DDE15E20A9FF3500FD5273 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
